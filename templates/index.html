@@ -17,10 +17,10 @@
                 <p class="text-base font-sans mt-2 md:mt-3 dark:text-white">Buat laporan indikasi terkena covid-19</p>
 
                 <!-- FORM GOES HERE -->
-                <form class="x-w-md mt-6 md:mt-12">
+                <form action="{{ url_for('submit') }}" method="post" class="x-w-md mt-6 md:mt-12" >
                     <div class="relative z-0 w-full mb-5 group">
-                        <input type="text" name="nik" id="nik" maxlength="16" class="dark:text-white block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
-                        <label for="nik" class="peer-focus:font-medium absolute font-sans text-sm text-gray-500 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Masukkan NIK Pelapor</label>
+                        <input type="text" inputmode="numeric" name="nik_pelapor" id="nik_pelapor" maxlength="16" class="dark:text-white block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                        <label for="nik_pelapor" class="peer-focus:font-medium absolute font-sans text-sm text-gray-500 dark:text-gray-200 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Masukkan NIK Pelapor</label>
                     </div>
                     <div class="relative z-0 w-full mb-5 group">
                         <input type="text" name="nama_pelapor" id="nama_pelapor" class="dark:text-white block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />

@@ -1,6 +1,41 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
+from flask_sqlalchemy import SQLAlchemy
+import os
+import concurrent.futures
 
 app = Flask(__name__)
+
+db_path = os.path.join(os.path.dirname(__file__), 'site.db')
+
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+# data = {}
+
+class Report(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nik_pelapor = db.Column(db.String(16), nullable=False)
+    nama_pelapor = db.Column(db.String(100), nullable=False)
+    nama_terlapor = db.Column(db.String(100), nullable=False)
+    alamat_terlapor = db.Column(db.String(255), nullable=False)
+    gejala = db.Column(db.String(255), nullable=False)
+
+
+def fetch_reports_parallel():
+    with app.app_context():
+        reports = Report.query.all()
+    return reports
+
+def normal_fetch():
+    with app.app_context():
+        reports = Report.query.all()
+    return reports
+
+
+# with app.app_context():
+#     db.create_all()
 
 
 @app.route('/', methods=['GET', 'POST'])
@@ -8,9 +43,41 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/pengaduan', methods=['GET', 'POST', 'PUT', 'DELETE'])
+@app.route('/submit', methods=['POST'])
+def submit():
+    try:
+        nik_pelapor = request.form.get('nik_pelapor')
+        nama_pelapor = request.form.get('nama_pelapor')
+        nama_terlapor = request.form.get('nama_terlapor')
+        alamat_terlapor = request.form.get('alamat_terlapor')
+        gejala = request.form.get('gejala')
+
+        new_report = Report (
+            nik_pelapor=nik_pelapor,
+            nama_pelapor=nama_pelapor,
+            nama_terlapor=nama_terlapor,
+            alamat_terlapor=alamat_terlapor,
+            gejala=gejala
+        )
+
+        db.session.add(new_report)
+        db.session.commit()
+
+        print('Form submitted sucessfully!', 'success')
+    except Exception as e:
+        print(f'Error submitting form: {str(e)}', 'danger')
+
+    return redirect(url_for('pengaduan'))
+
+@app.route('/pengaduan')
 def pengaduan():
-    return render_template('pengaduan.html')
+    reports = Report.query.all()
+
+    if not reports:
+        return render_template('pengaduan.html', no_data=True)
+    else:
+        return render_template('pengaduan.html', reports=reports)
+
 
 @app.route('/creator')
 def creator():

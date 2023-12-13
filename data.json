@@ -1,0 +1,4454 @@
+[
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3224020304050630",
+    "NAMAPELAPOR": "Yoga Pratama",
+    "NAMATERLAPOR": "Perusahaan Sejahtera",
+    "ALAMATERLAPOR": "121 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3225020304050631",
+    "NAMAPELAPOR": "Zainal Abidin",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "222 Jalan Damai",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3226020304050632",
+    "NAMAPELAPOR": "Yulia Wati",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "333 Jalan Sentosa",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3227020304050633",
+    "NAMAPELAPOR": "Zulfikar Ali",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "444 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3228020304050634",
+    "NAMAPELAPOR": "Xaverius Adi",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "555 Jalan Bahagia",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3229020304050635",
+    "NAMAPELAPOR": "Wahyu Susanto",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "666 Jalan Damai",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3230020304050636",
+    "NAMAPELAPOR": "Vivi Triyani",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "777 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3231020304050637",
+    "NAMAPELAPOR": "Umar Abdullah",
+    "NAMATERLAPOR": "Perusahaan Makmur",
+    "ALAMATERLAPOR": "888 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3232020304050638",
+    "NAMAPELAPOR": "Tika Pratiwi",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "999 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3233020304050639",
+    "NAMAPELAPOR": "Surya Putra",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "1010 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3234020304050640",
+    "NAMAPELAPOR": "Ratna Sari",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "1111 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3235020304050641",
+    "NAMAPELAPOR": "Prabowo Susilo",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "1212 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3236020304050642",
+    "NAMAPELAPOR": "Nurul Fitri",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "1313 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3237020304050643",
+    "NAMAPELAPOR": "Maulana Yusuf",
+    "NAMATERLAPOR": "Indomaret Damai",
+    "ALAMATERLAPOR": "1414 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3238020304050644",
+    "NAMAPELAPOR": "Laila Rahma",
+    "NAMATERLAPOR": "Rumah Sejahtera",
+    "ALAMATERLAPOR": "1515 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3239020304050645",
+    "NAMAPELAPOR": "Kurnia Wijaya",
+    "NAMATERLAPOR": "Pabrik Maju",
+    "ALAMATERLAPOR": "1616 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3240020304050646",
+    "NAMAPELAPOR": "Ismail Hakim",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "1717 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3241020304050647",
+    "NAMAPELAPOR": "Fira Salsabila",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "1818 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3242020304050648",
+    "NAMAPELAPOR": "Darma Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "1919 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3243020304050649",
+    "NAMAPELAPOR": "Cindy Putri",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "2020 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3244020304050650",
+    "NAMAPELAPOR": "Bambang Sutanto",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "2121 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3245020304050651",
+    "NAMAPELAPOR": "Anita Susanti",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "2222 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3246020304050652",
+    "NAMAPELAPOR": "Yoga Pranata",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "2323 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3247020304050653",
+    "NAMAPELAPOR": "Rina Indriani",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "2424 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3248020304050654",
+    "NAMAPELAPOR": "Hadi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "2525 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3261020304050667",
+    "NAMAPELAPOR": "Rini Suryani",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "3838 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3262020304050668",
+    "NAMAPELAPOR": "Joko Susilo",
+    "NAMATERLAPOR": "Toko Cemerlang",
+    "ALAMATERLAPOR": "3939 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3263020304050669",
+    "NAMAPELAPOR": "Lia Fitriani",
+    "NAMATERLAPOR": "Gudang Maju",
+    "ALAMATERLAPOR": "4040 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3264020304050670",
+    "NAMAPELAPOR": "Firman Hakim",
+    "NAMATERLAPOR": "Apotek Sejahtera",
+    "ALAMATERLAPOR": "4141 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3265020304050671",
+    "NAMAPELAPOR": "Ratih Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "4242 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3266020304050672",
+    "NAMAPELAPOR": "Arief Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "4343 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3267020304050673",
+    "NAMAPELAPOR": "Maya Sari",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "4444 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3268020304050674",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "4545 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3269020304050675",
+    "NAMAPELAPOR": "Siti Indriani",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "4646 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3270020304050676",
+    "NAMAPELAPOR": "Rizky Wijaya",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "4747 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3271020304050677",
+    "NAMAPELAPOR": "Linda Rahmawati",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "4848 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3272020304050678",
+    "NAMAPELAPOR": "Aldi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "4949 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3273020304050679",
+    "NAMAPELAPOR": "Nina Fitri",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "5050 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3274020304050680",
+    "NAMAPELAPOR": "Fajar Setiawan",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "5151 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3275020304050681",
+    "NAMAPELAPOR": "Rina Santoso",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "5252 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3276020304050682",
+    "NAMAPELAPOR": "Deni Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "5353 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3277020304050683",
+    "NAMAPELAPOR": "Wulan Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "5454 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3278020304050684",
+    "NAMAPELAPOR": "Adi Santoso",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "5555 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3279020304050685",
+    "NAMAPELAPOR": "Ratna Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "5656 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3280020304050686",
+    "NAMAPELAPOR": "Dian Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "5757 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3281020304050687",
+    "NAMAPELAPOR": "Irfan Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "5858 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3282020304050688",
+    "NAMAPELAPOR": "Sari Wulandari",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "5959 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3283020304050689",
+    "NAMAPELAPOR": "Rizal Hakim",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "6060 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3284020304050690",
+    "NAMAPELAPOR": "Dewi Suryani",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "6161 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3224020304050630",
+    "NAMAPELAPOR": "Yoga Pratama",
+    "NAMATERLAPOR": "Perusahaan Sejahtera",
+    "ALAMATERLAPOR": "121 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3225020304050631",
+    "NAMAPELAPOR": "Zainal Abidin",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "222 Jalan Damai",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3226020304050632",
+    "NAMAPELAPOR": "Yulia Wati",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "333 Jalan Sentosa",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3227020304050633",
+    "NAMAPELAPOR": "Zulfikar Ali",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "444 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3228020304050634",
+    "NAMAPELAPOR": "Xaverius Adi",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "555 Jalan Bahagia",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3229020304050635",
+    "NAMAPELAPOR": "Wahyu Susanto",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "666 Jalan Damai",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3230020304050636",
+    "NAMAPELAPOR": "Vivi Triyani",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "777 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3231020304050637",
+    "NAMAPELAPOR": "Umar Abdullah",
+    "NAMATERLAPOR": "Perusahaan Makmur",
+    "ALAMATERLAPOR": "888 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3232020304050638",
+    "NAMAPELAPOR": "Tika Pratiwi",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "999 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3233020304050639",
+    "NAMAPELAPOR": "Surya Putra",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "1010 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3234020304050640",
+    "NAMAPELAPOR": "Ratna Sari",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "1111 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3235020304050641",
+    "NAMAPELAPOR": "Prabowo Susilo",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "1212 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3236020304050642",
+    "NAMAPELAPOR": "Nurul Fitri",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "1313 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3237020304050643",
+    "NAMAPELAPOR": "Maulana Yusuf",
+    "NAMATERLAPOR": "Indomaret Damai",
+    "ALAMATERLAPOR": "1414 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3238020304050644",
+    "NAMAPELAPOR": "Laila Rahma",
+    "NAMATERLAPOR": "Rumah Sejahtera",
+    "ALAMATERLAPOR": "1515 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3239020304050645",
+    "NAMAPELAPOR": "Kurnia Wijaya",
+    "NAMATERLAPOR": "Pabrik Maju",
+    "ALAMATERLAPOR": "1616 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3240020304050646",
+    "NAMAPELAPOR": "Ismail Hakim",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "1717 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3241020304050647",
+    "NAMAPELAPOR": "Fira Salsabila",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "1818 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3242020304050648",
+    "NAMAPELAPOR": "Darma Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "1919 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3243020304050649",
+    "NAMAPELAPOR": "Cindy Putri",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "2020 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3244020304050650",
+    "NAMAPELAPOR": "Bambang Sutanto",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "2121 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3245020304050651",
+    "NAMAPELAPOR": "Anita Susanti",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "2222 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3246020304050652",
+    "NAMAPELAPOR": "Yoga Pranata",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "2323 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3247020304050653",
+    "NAMAPELAPOR": "Rina Indriani",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "2424 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3248020304050654",
+    "NAMAPELAPOR": "Hadi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "2525 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3261020304050667",
+    "NAMAPELAPOR": "Rini Suryani",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "3838 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3262020304050668",
+    "NAMAPELAPOR": "Joko Susilo",
+    "NAMATERLAPOR": "Toko Cemerlang",
+    "ALAMATERLAPOR": "3939 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3263020304050669",
+    "NAMAPELAPOR": "Lia Fitriani",
+    "NAMATERLAPOR": "Gudang Maju",
+    "ALAMATERLAPOR": "4040 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3264020304050670",
+    "NAMAPELAPOR": "Firman Hakim",
+    "NAMATERLAPOR": "Apotek Sejahtera",
+    "ALAMATERLAPOR": "4141 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3265020304050671",
+    "NAMAPELAPOR": "Ratih Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "4242 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3266020304050672",
+    "NAMAPELAPOR": "Arief Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "4343 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3267020304050673",
+    "NAMAPELAPOR": "Maya Sari",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "4444 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3268020304050674",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "4545 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3269020304050675",
+    "NAMAPELAPOR": "Siti Indriani",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "4646 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3270020304050676",
+    "NAMAPELAPOR": "Rizky Wijaya",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "4747 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3271020304050677",
+    "NAMAPELAPOR": "Linda Rahmawati",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "4848 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3272020304050678",
+    "NAMAPELAPOR": "Aldi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "4949 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3273020304050679",
+    "NAMAPELAPOR": "Nina Fitri",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "5050 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3274020304050680",
+    "NAMAPELAPOR": "Fajar Setiawan",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "5151 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3275020304050681",
+    "NAMAPELAPOR": "Rina Santoso",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "5252 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3276020304050682",
+    "NAMAPELAPOR": "Deni Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "5353 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3277020304050683",
+    "NAMAPELAPOR": "Wulan Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "5454 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3278020304050684",
+    "NAMAPELAPOR": "Adi Santoso",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "5555 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3279020304050685",
+    "NAMAPELAPOR": "Ratna Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "5656 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3280020304050686",
+    "NAMAPELAPOR": "Dian Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "5757 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3281020304050687",
+    "NAMAPELAPOR": "Irfan Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "5858 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3282020304050688",
+    "NAMAPELAPOR": "Sari Wulandari",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "5959 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3283020304050689",
+    "NAMAPELAPOR": "Rizal Hakim",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "6060 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3284020304050690",
+    "NAMAPELAPOR": "Dewi Suryani",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "6161 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3224020304050630",
+    "NAMAPELAPOR": "Yoga Pratama",
+    "NAMATERLAPOR": "Perusahaan Sejahtera",
+    "ALAMATERLAPOR": "121 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3225020304050631",
+    "NAMAPELAPOR": "Zainal Abidin",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "222 Jalan Damai",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3226020304050632",
+    "NAMAPELAPOR": "Yulia Wati",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "333 Jalan Sentosa",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3227020304050633",
+    "NAMAPELAPOR": "Zulfikar Ali",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "444 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3228020304050634",
+    "NAMAPELAPOR": "Xaverius Adi",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "555 Jalan Bahagia",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3229020304050635",
+    "NAMAPELAPOR": "Wahyu Susanto",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "666 Jalan Damai",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3230020304050636",
+    "NAMAPELAPOR": "Vivi Triyani",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "777 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3231020304050637",
+    "NAMAPELAPOR": "Umar Abdullah",
+    "NAMATERLAPOR": "Perusahaan Makmur",
+    "ALAMATERLAPOR": "888 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3232020304050638",
+    "NAMAPELAPOR": "Tika Pratiwi",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "999 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3233020304050639",
+    "NAMAPELAPOR": "Surya Putra",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "1010 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3234020304050640",
+    "NAMAPELAPOR": "Ratna Sari",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "1111 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3235020304050641",
+    "NAMAPELAPOR": "Prabowo Susilo",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "1212 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3236020304050642",
+    "NAMAPELAPOR": "Nurul Fitri",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "1313 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3237020304050643",
+    "NAMAPELAPOR": "Maulana Yusuf",
+    "NAMATERLAPOR": "Indomaret Damai",
+    "ALAMATERLAPOR": "1414 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3238020304050644",
+    "NAMAPELAPOR": "Laila Rahma",
+    "NAMATERLAPOR": "Rumah Sejahtera",
+    "ALAMATERLAPOR": "1515 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3239020304050645",
+    "NAMAPELAPOR": "Kurnia Wijaya",
+    "NAMATERLAPOR": "Pabrik Maju",
+    "ALAMATERLAPOR": "1616 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3240020304050646",
+    "NAMAPELAPOR": "Ismail Hakim",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "1717 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3241020304050647",
+    "NAMAPELAPOR": "Fira Salsabila",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "1818 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3242020304050648",
+    "NAMAPELAPOR": "Darma Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "1919 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3243020304050649",
+    "NAMAPELAPOR": "Cindy Putri",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "2020 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3244020304050650",
+    "NAMAPELAPOR": "Bambang Sutanto",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "2121 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3245020304050651",
+    "NAMAPELAPOR": "Anita Susanti",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "2222 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3246020304050652",
+    "NAMAPELAPOR": "Yoga Pranata",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "2323 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3247020304050653",
+    "NAMAPELAPOR": "Rina Indriani",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "2424 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3248020304050654",
+    "NAMAPELAPOR": "Hadi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "2525 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3261020304050667",
+    "NAMAPELAPOR": "Rini Suryani",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "3838 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3262020304050668",
+    "NAMAPELAPOR": "Joko Susilo",
+    "NAMATERLAPOR": "Toko Cemerlang",
+    "ALAMATERLAPOR": "3939 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3263020304050669",
+    "NAMAPELAPOR": "Lia Fitriani",
+    "NAMATERLAPOR": "Gudang Maju",
+    "ALAMATERLAPOR": "4040 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3264020304050670",
+    "NAMAPELAPOR": "Firman Hakim",
+    "NAMATERLAPOR": "Apotek Sejahtera",
+    "ALAMATERLAPOR": "4141 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3265020304050671",
+    "NAMAPELAPOR": "Ratih Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "4242 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3266020304050672",
+    "NAMAPELAPOR": "Arief Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "4343 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3267020304050673",
+    "NAMAPELAPOR": "Maya Sari",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "4444 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3268020304050674",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "4545 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3269020304050675",
+    "NAMAPELAPOR": "Siti Indriani",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "4646 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3270020304050676",
+    "NAMAPELAPOR": "Rizky Wijaya",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "4747 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3271020304050677",
+    "NAMAPELAPOR": "Linda Rahmawati",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "4848 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3272020304050678",
+    "NAMAPELAPOR": "Aldi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "4949 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3273020304050679",
+    "NAMAPELAPOR": "Nina Fitri",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "5050 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3274020304050680",
+    "NAMAPELAPOR": "Fajar Setiawan",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "5151 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3275020304050681",
+    "NAMAPELAPOR": "Rina Santoso",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "5252 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3276020304050682",
+    "NAMAPELAPOR": "Deni Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "5353 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3277020304050683",
+    "NAMAPELAPOR": "Wulan Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "5454 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3278020304050684",
+    "NAMAPELAPOR": "Adi Santoso",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "5555 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3279020304050685",
+    "NAMAPELAPOR": "Ratna Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "5656 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3280020304050686",
+    "NAMAPELAPOR": "Dian Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "5757 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3281020304050687",
+    "NAMAPELAPOR": "Irfan Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "5858 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3282020304050688",
+    "NAMAPELAPOR": "Sari Wulandari",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "5959 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3283020304050689",
+    "NAMAPELAPOR": "Rizal Hakim",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "6060 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3284020304050690",
+    "NAMAPELAPOR": "Dewi Suryani",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "6161 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3224020304050630",
+    "NAMAPELAPOR": "Yoga Pratama",
+    "NAMATERLAPOR": "Perusahaan Sejahtera",
+    "ALAMATERLAPOR": "121 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3225020304050631",
+    "NAMAPELAPOR": "Zainal Abidin",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "222 Jalan Damai",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3226020304050632",
+    "NAMAPELAPOR": "Yulia Wati",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "333 Jalan Sentosa",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3227020304050633",
+    "NAMAPELAPOR": "Zulfikar Ali",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "444 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3228020304050634",
+    "NAMAPELAPOR": "Xaverius Adi",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "555 Jalan Bahagia",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3229020304050635",
+    "NAMAPELAPOR": "Wahyu Susanto",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "666 Jalan Damai",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3230020304050636",
+    "NAMAPELAPOR": "Vivi Triyani",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "777 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3231020304050637",
+    "NAMAPELAPOR": "Umar Abdullah",
+    "NAMATERLAPOR": "Perusahaan Makmur",
+    "ALAMATERLAPOR": "888 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3232020304050638",
+    "NAMAPELAPOR": "Tika Pratiwi",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "999 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3233020304050639",
+    "NAMAPELAPOR": "Surya Putra",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "1010 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3234020304050640",
+    "NAMAPELAPOR": "Ratna Sari",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "1111 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3235020304050641",
+    "NAMAPELAPOR": "Prabowo Susilo",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "1212 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3236020304050642",
+    "NAMAPELAPOR": "Nurul Fitri",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "1313 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3237020304050643",
+    "NAMAPELAPOR": "Maulana Yusuf",
+    "NAMATERLAPOR": "Indomaret Damai",
+    "ALAMATERLAPOR": "1414 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3238020304050644",
+    "NAMAPELAPOR": "Laila Rahma",
+    "NAMATERLAPOR": "Rumah Sejahtera",
+    "ALAMATERLAPOR": "1515 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3239020304050645",
+    "NAMAPELAPOR": "Kurnia Wijaya",
+    "NAMATERLAPOR": "Pabrik Maju",
+    "ALAMATERLAPOR": "1616 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3240020304050646",
+    "NAMAPELAPOR": "Ismail Hakim",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "1717 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3241020304050647",
+    "NAMAPELAPOR": "Fira Salsabila",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "1818 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3242020304050648",
+    "NAMAPELAPOR": "Darma Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "1919 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3243020304050649",
+    "NAMAPELAPOR": "Cindy Putri",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "2020 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3244020304050650",
+    "NAMAPELAPOR": "Bambang Sutanto",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "2121 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3245020304050651",
+    "NAMAPELAPOR": "Anita Susanti",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "2222 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3246020304050652",
+    "NAMAPELAPOR": "Yoga Pranata",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "2323 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3247020304050653",
+    "NAMAPELAPOR": "Rina Indriani",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "2424 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3248020304050654",
+    "NAMAPELAPOR": "Hadi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "2525 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3261020304050667",
+    "NAMAPELAPOR": "Rini Suryani",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "3838 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3262020304050668",
+    "NAMAPELAPOR": "Joko Susilo",
+    "NAMATERLAPOR": "Toko Cemerlang",
+    "ALAMATERLAPOR": "3939 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3263020304050669",
+    "NAMAPELAPOR": "Lia Fitriani",
+    "NAMATERLAPOR": "Gudang Maju",
+    "ALAMATERLAPOR": "4040 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3264020304050670",
+    "NAMAPELAPOR": "Firman Hakim",
+    "NAMATERLAPOR": "Apotek Sejahtera",
+    "ALAMATERLAPOR": "4141 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3265020304050671",
+    "NAMAPELAPOR": "Ratih Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "4242 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3266020304050672",
+    "NAMAPELAPOR": "Arief Pratama",
+    "NAMATERLAPOR": "Bengkel Cemerlang",
+    "ALAMATERLAPOR": "4343 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3267020304050673",
+    "NAMAPELAPOR": "Maya Sari",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "4444 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3268020304050674",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "4545 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3269020304050675",
+    "NAMAPELAPOR": "Siti Indriani",
+    "NAMATERLAPOR": "Perusahaan Maju",
+    "ALAMATERLAPOR": "4646 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3270020304050676",
+    "NAMAPELAPOR": "Rizky Wijaya",
+    "NAMATERLAPOR": "Toko Sejahtera",
+    "ALAMATERLAPOR": "4747 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3271020304050677",
+    "NAMAPELAPOR": "Linda Rahmawati",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "4848 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3272020304050678",
+    "NAMAPELAPOR": "Aldi Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "4949 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3273020304050679",
+    "NAMAPELAPOR": "Nina Fitri",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "5050 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3274020304050680",
+    "NAMAPELAPOR": "Fajar Setiawan",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "5151 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3275020304050681",
+    "NAMAPELAPOR": "Rina Santoso",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "5252 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3276020304050682",
+    "NAMAPELAPOR": "Deni Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "5353 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3277020304050683",
+    "NAMAPELAPOR": "Wulan Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "5454 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3278020304050684",
+    "NAMAPELAPOR": "Adi Santoso",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "5555 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3279020304050685",
+    "NAMAPELAPOR": "Ratna Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "5656 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3280020304050686",
+    "NAMAPELAPOR": "Dian Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "5757 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3281020304050687",
+    "NAMAPELAPOR": "Irfan Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "5858 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3282020304050688",
+    "NAMAPELAPOR": "Sari Wulandari",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "5959 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3283020304050689",
+    "NAMAPELAPOR": "Rizal Hakim",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "6060 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3284020304050690",
+    "NAMAPELAPOR": "Dewi Suryani",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "6161 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3285020304050691",
+    "NAMAPELAPOR": "Irfan Prasetyo",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "6262 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3286020304050692",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "6363 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3287020304050693",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "6464 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3288020304050694",
+    "NAMAPELAPOR": "Lina Indriani",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "6565 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3289020304050695",
+    "NAMAPELAPOR": "Dedi Setiawan",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "6666 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3290020304050696",
+    "NAMAPELAPOR": "Rina Prasetyo",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "6767 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3291020304050697",
+    "NAMAPELAPOR": "Dewa Wijaya",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "6868 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3292020304050698",
+    "NAMAPELAPOR": "Anita Rahayu",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "6969 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3293020304050699",
+    "NAMAPELAPOR": "Aldi Setiawan",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "7070 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3294020304050700",
+    "NAMAPELAPOR": "Lia Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7171 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3295020304050701",
+    "NAMAPELAPOR": "Yoga Santoso",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7272 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3296020304050702",
+    "NAMAPELAPOR": "Dian Indah",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7373 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3297020304050703",
+    "NAMAPELAPOR": "Rizal Setiawan",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "7474 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3298020304050704",
+    "NAMAPELAPOR": "Maya Wulandari",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "7575 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3299020304050705",
+    "NAMAPELAPOR": "Irfan Hakim",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "7676 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3300020304050706",
+    "NAMAPELAPOR": "Ratna Prasetyo",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "7777 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3301020304050707",
+    "NAMAPELAPOR": "Yoga Wijaya",
+    "NAMATERLAPOR": "Klinik Damai",
+    "ALAMATERLAPOR": "7878 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3302020304050708",
+    "NAMAPELAPOR": "Siti Rahmawati",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "7979 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3303020304050709",
+    "NAMAPELAPOR": "Dedi Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "8080 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3304020304050710",
+    "NAMAPELAPOR": "Rina Setiawan",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "8181 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3249020304050655",
+    "NAMAPELAPOR": "Widi Astuti",
+    "NAMATERLAPOR": "Supermarket Ceria",
+    "ALAMATERLAPOR": "2626 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3250020304050656",
+    "NAMAPELAPOR": "Arif Santoso",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "2727 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3251020304050657",
+    "NAMAPELAPOR": "Maya Fitri",
+    "NAMATERLAPOR": "Rumah Damai",
+    "ALAMATERLAPOR": "2828 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3252020304050658",
+    "NAMAPELAPOR": "Hendro Wijaya",
+    "NAMATERLAPOR": "Apotek Maju",
+    "ALAMATERLAPOR": "2929 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3253020304050659",
+    "NAMAPELAPOR": "Sari Indah",
+    "NAMATERLAPOR": "Warung Damai",
+    "ALAMATERLAPOR": "3030 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3254020304050660",
+    "NAMAPELAPOR": "Farid Setiawan",
+    "NAMATERLAPOR": "Restoran Sejahtera",
+    "ALAMATERLAPOR": "3131 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3255020304050661",
+    "NAMAPELAPOR": "Lina Wulandari",
+    "NAMATERLAPOR": "Toko Ceria",
+    "ALAMATERLAPOR": "3232 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3256020304050662",
+    "NAMAPELAPOR": "Hadi Santoso",
+    "NAMATERLAPOR": "Bengkel Makmur",
+    "ALAMATERLAPOR": "3333 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3257020304050663",
+    "NAMAPELAPOR": "Wulan Sari",
+    "NAMATERLAPOR": "Supermarket Damai",
+    "ALAMATERLAPOR": "3434 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3258020304050664",
+    "NAMAPELAPOR": "Yusuf Wijaya",
+    "NAMATERLAPOR": "Toko Maju",
+    "ALAMATERLAPOR": "3535 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3259020304050665",
+    "NAMAPELAPOR": "Dewi Rahmawati",
+    "NAMATERLAPOR": "Warung Sejahtera",
+    "ALAMATERLAPOR": "3636 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3260020304050666",
+    "NAMAPELAPOR": "Ahmad Prasetyo",
+    "NAMATERLAPOR": "Rumah Ceria",
+    "ALAMATERLAPOR": "3737 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3201020304050607",
+    "NAMAPELAPOR": "Agus Setiawan",
+    "NAMATERLAPOR": "PT. Sejahtera Jaya",
+    "ALAMATERLAPOR": "123 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3202020304050608",
+    "NAMAPELAPOR": "Budi Santoso",
+    "NAMATERLAPOR": "CV. Maju Terus",
+    "ALAMATERLAPOR": "456 Jalan Damai",
+    "GEJALA": "Sore throat, Headache"
+  },
+  {
+    "NIKPELAPOR": "3203020304050609",
+    "NAMAPELAPOR": "Citra Dewi",
+    "NAMATERLAPOR": "UD. Bersama Sentosa",
+    "ALAMATERLAPOR": "789 Jalan Cemerlang",
+    "GEJALA": "Fatigue, Shortness of breath"
+  },
+  {
+    "NIKPELAPOR": "3204020304050610",
+    "NAMAPELAPOR": "Dhika Putra",
+    "NAMATERLAPOR": "Toko Sinar Makmur",
+    "ALAMATERLAPOR": "101 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3205020304050611",
+    "NAMAPELAPOR": "Erna Susanti",
+    "NAMATERLAPOR": "Warung Bahagia",
+    "ALAMATERLAPOR": "202 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3206020304050612",
+    "NAMAPELAPOR": "Fahmi Rahman",
+    "NAMATERLAPOR": "Pabrik Maju Jaya",
+    "ALAMATERLAPOR": "303 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3207020304050613",
+    "NAMAPELAPOR": "Gita Wijaya",
+    "NAMATERLAPOR": "Kantor Cemerlang",
+    "ALAMATERLAPOR": "404 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3208020304050614",
+    "NAMAPELAPOR": "Hendra Surya",
+    "NAMATERLAPOR": "Toko Bersama",
+    "ALAMATERLAPOR": "505 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3209020304050615",
+    "NAMAPELAPOR": "Indah Permata",
+    "NAMATERLAPOR": "Restoran Damai",
+    "ALAMATERLAPOR": "606 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3210020304050616",
+    "NAMAPELAPOR": "Joko Prasetyo",
+    "NAMATERLAPOR": "Warung Ceria",
+    "ALAMATERLAPOR": "707 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3211020304050617",
+    "NAMAPELAPOR": "Kartika Putri",
+    "NAMATERLAPOR": "Sekolah Cerdas",
+    "ALAMATERLAPOR": "808 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3212020304050618",
+    "NAMAPELAPOR": "Lukman Hakim",
+    "NAMATERLAPOR": "Bengkel Maju",
+    "ALAMATERLAPOR": "909 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3213020304050619",
+    "NAMAPELAPOR": "Mega Indah",
+    "NAMATERLAPOR": "Klinik Cemerlang",
+    "ALAMATERLAPOR": "010 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3214020304050620",
+    "NAMAPELAPOR": "Nanda Sari",
+    "NAMATERLAPOR": "Kantor Sejahtera",
+    "ALAMATERLAPOR": "111 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3215020304050621",
+    "NAMAPELAPOR": "Opik Santoso",
+    "NAMATERLAPOR": "Gudang Damai",
+    "ALAMATERLAPOR": "212 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3216020304050622",
+    "NAMAPELAPOR": "Prita Wijaya",
+    "NAMATERLAPOR": "Toko Makmur",
+    "ALAMATERLAPOR": "313 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3217020304050623",
+    "NAMAPELAPOR": "Reza Permadi",
+    "NAMATERLAPOR": "Indomaret Ceria",
+    "ALAMATERLAPOR": "414 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  },
+  {
+    "NIKPELAPOR": "3218020304050624",
+    "NAMAPELAPOR": "Sinta Dewi",
+    "NAMATERLAPOR": "Bengkel Sejahtera",
+    "ALAMATERLAPOR": "515 Jalan Sejahtera",
+    "GEJALA": "Nausea, Diarrhea"
+  },
+  {
+    "NIKPELAPOR": "3219020304050625",
+    "NAMAPELAPOR": "Taufik Hidayat",
+    "NAMATERLAPOR": "Rumah Cemerlang",
+    "ALAMATERLAPOR": "616 Jalan Indah",
+    "GEJALA": "Headache, Sore throat"
+  },
+  {
+    "NIKPELAPOR": "3220020304050626",
+    "NAMAPELAPOR": "Ulfa Hakim",
+    "NAMATERLAPOR": "Apotek Damai",
+    "ALAMATERLAPOR": "717 Jalan Bahagia",
+    "GEJALA": "Fever, Cough"
+  },
+  {
+    "NIKPELAPOR": "3221020304050627",
+    "NAMAPELAPOR": "Vina Putri",
+    "NAMATERLAPOR": "Supermarket Maju",
+    "ALAMATERLAPOR": "818 Jalan Damai",
+    "GEJALA": "Shortness of breath, Fatigue"
+  },
+  {
+    "NIKPELAPOR": "3222020304050628",
+    "NAMAPELAPOR": "Wawan Setiawan",
+    "NAMATERLAPOR": "SPBU Makmur",
+    "ALAMATERLAPOR": "919 Jalan Sentosa",
+    "GEJALA": "Loss of taste, Loss of smell"
+  },
+  {
+    "NIKPELAPOR": "3223020304050629",
+    "NAMAPELAPOR": "Xena Santoso",
+    "NAMATERLAPOR": "Toko Serba Ceria",
+    "ALAMATERLAPOR": "020 Jalan Makmur",
+    "GEJALA": "Body aches, Chills"
+  }
+]
