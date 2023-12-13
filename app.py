@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 import os
 import concurrent.futures
+import markdown2
 
 app = Flask(__name__)
 
@@ -77,11 +78,26 @@ def pengaduan():
         return render_template('pengaduan.html', no_data=True)
     else:
         return render_template('pengaduan.html', reports=reports)
+    
+
+@app.route('/delete/<int:report_id>', methods=['POST'])
+def delete_report(report_id):
+    try:
+        report = Report.query.get_or_404(report_id)
+        db.session.delete(report)
+        db.session.commit()
+        print('Report deleted successfully!')
+    except Exception as e:
+        print(f'Error deleting report: {str(e)}')
+    return redirect(url_for('pengaduan'))
 
 
-@app.route('/creator')
-def creator():
-    return 'Creator Page'
+@app.route('/how-it-works')
+def guide():
+    with open('README.md', 'r', encoding='utf-8') as file:
+        content = file.read()
+    html_content = markdown2.markdown(content)
+    return render_template('guideline.html', html_content=html_content)
 
 if __name__ == '__main__':
     app.run(debug=True, host="192.168.0.13")

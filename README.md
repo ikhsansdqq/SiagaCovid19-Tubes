@@ -11,7 +11,7 @@ In contrast, non-parallel testing serves as a baseline for comparison, represent
 
 Additionally, our exploration extends to the integration of distributed systems, as we delve into the realm of optimizing resource utilization across multiple nodes. This strategic approach aims to harness the collective processing power of a network of interconnected devices, promoting scalability and responsiveness in our website's final implementation.
 
-Through this dual-pronged testing methodology, we endeavor to fine-tune our Python-based website, ensuring that it not only meets but exceeds performance expectations. The utilization of local MySQL and Flask, coupled with the incorporation of parallel and distributed computing principles, reflects our commitment to delivering a robust, efficient, and highly responsive web application for our final project.
+Through this dual-pronged testing methodology, we endeavor to fine-tune our Python-based website, ensuring that it not only meets but exceeds performance expectations. The utilization of local **MySQL** and **Flask**, coupled with the incorporation of parallel and distributed computing principles, reflects our commitment to delivering a robust, efficient, and highly responsive web application for our final project.
 
 ---
 

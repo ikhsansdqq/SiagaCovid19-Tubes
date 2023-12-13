@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #151515;
+}
+
+h1 {
+    font-size: 34px!important;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px!important;
+    font-weight: 400!important;
+}
+
+h3 {
+    font-size: 22px!important;
+    font-weight: 400!important;
+}
+
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px!important;
+    padding: 2px 4px;
+    font-family: 'Roboto Mono', monospace!important;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #5e5e5e;
+}
+
+ul {
+    list-style-type: square;
+    margin-bottom: 20px;
+}
+
+li {
+    color: #666;
+}
