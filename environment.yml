@@ -4,5 +4,4 @@ dependencies:
   - Flask-SQLAlchemy
   - SQLAlchemy
   - Flask
-  - os
   - markdown2
