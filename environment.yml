@@ -1,0 +1,7 @@
+name: SiagaCovid19
+dependencies:
+  - python=3.11
+  - Flask-SQLAlchemy
+  - SQLAlchemy
+  - Flask
+  - markdown2
