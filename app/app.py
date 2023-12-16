@@ -105,4 +105,4 @@ def test():
     return render_template('test.html')
 
 if __name__ == '__main__':
-    app.run(debug=True, host="192.168.0.13")
+    app.run()
