@@ -1,11 +1,14 @@
 import pymysql
 from flask import Flask, jsonify, request, redirect, url_for, render_template
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 import mysql.connector
 from mysql.connector import Error
 
 
 app = Flask(__name__)
+CORS(app, resources={r"/server": {"origins": "*"}})
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
 db = SQLAlchemy()
 
@@ -36,6 +39,7 @@ def create_db():
     with app.app_context():
         db.create_all()
 
+# Use MySQL
 @app.route('/server1')
 def server1():
     try:
@@ -64,7 +68,6 @@ def server1():
 @app.route('/server1/add', methods=['GET', 'POST'])
 def add_laporan():
     if request.method == "POST":
-        id = request.form.get('id')
         nik_pelapor = request.form.get('nik_pelapor')
         nama_pelapor = request.form.get('nama_pelapor')
         alamat_terlapor = request.form.get('alamat_terlapor')
@@ -82,7 +85,37 @@ def add_laporan():
         return redirect('/')
     return jsonify(add_details)
 
+# TEST
+@app.route('/server', methods=['GET', 'POST'])
+def handle_form_data():
+    try:
+        if request.is_json:
+            data = request.get_json()
+            connection = mysql.connector.connect (
+                user="root",
+                password="Hoodwink77!",  # Use the correct parameter for the password
+                host="localhost",
+                database="COVID19"  # Use the correct parameter for the database name
+            )
+
+            cursor = connection.cursor()
+
+            query = "INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
+            values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'], data['gejala'])
+            cursor.execute(query, values)
+
+            connection.commit()
+            cursor.close()
+            connection.close()
+            return redirect(url_for(server1))
+        else:
+            return jsonify({'error': 'Invalid content type. Expected application/json'}), 415
+        
+    except Error as e:
+        print(f"Error: {e}")
+        return 'Error storing data', 500
+
 
 if __name__ == "__main__":
     create_db()
-    app.run(debug=True)
+    app.run(debug=True, port=3000, host='localhost')

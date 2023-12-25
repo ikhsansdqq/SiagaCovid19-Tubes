@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 import os
-import concurrent.futures
+import requests
+import json
 import markdown2
 
 app = Flask(__name__)
@@ -34,11 +35,6 @@ def normal_fetch():
         reports = Report.query.all()
     return reports
 
-
-# with app.app_context():
-#     db.create_all()
-
-
 @app.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('index.html')
@@ -53,22 +49,47 @@ def submit():
         alamat_terlapor = request.form.get('alamat_terlapor')
         gejala = request.form.get('gejala')
 
-        new_report = Report (
-            nik_pelapor=nik_pelapor,
-            nama_pelapor=nama_pelapor,
-            nama_terlapor=nama_terlapor,
-            alamat_terlapor=alamat_terlapor,
-            gejala=gejala
-        )
+        server_url = "http://127.0.0.1:3000/server"
 
-        db.session.add(new_report)
-        db.session.commit()
+        data = {
+            'nik_pelapor': nik_pelapor, 
+            'nama_pelapor': nama_pelapor, 
+            'nama_terlapor': nama_pelapor, 
+            'alamat_terlapor': alamat_terlapor, 
+            'gejala': gejala
+        }
 
+        json_string = json.dumps(data)
+
+        requests.post(server_url, json=data)
+
+        # new_report = Report (
+        #     nik_pelapor=nik_pelapor,
+        #     nama_pelapor=nama_pelapor,
+        #     nama_terlapor=nama_terlapor,
+        #     alamat_terlapor=alamat_terlapor,
+        #     gejala=gejala
+        # )
+
+        # db.session.add(new_report)
+        # db.session.commit()
+        print(data)
+        print(type(data))
+        print(json_string)
+        print(type(json_string))
         print('Form submitted sucessfully!', 'success')
     except Exception as e:
         print(f'Error submitting form: {str(e)}', 'danger')
 
-    return redirect(url_for('pengaduan'))
+    # return redirect(url_for('pengaduan'))
+    return redirect(url_for('redirect_to_server'))
+
+# Example route handling the redirection to the server
+@app.route('/redirect-to-server')
+def redirect_to_server():
+    # Use the absolute URL
+    return redirect('http://127.0.0.1:3000/server')
+
 
 @app.route('/pengaduan')
 def pengaduan():
