@@ -107,7 +107,7 @@ def handle_form_data():
             connection.commit()
             cursor.close()
             connection.close()
-            return redirect(url_for(server1))
+            return redirect(url_for('server1'))
         else:
             return jsonify({'error': 'Invalid content type. Expected application/json'}), 415
         
