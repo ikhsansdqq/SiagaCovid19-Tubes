@@ -91,16 +91,22 @@ def redirect_to_server():
     return redirect('http://127.0.0.1:3000/server')
 
 
+
 @app.route('/pengaduan')
 def pengaduan():
-    reports = Report.query.all()
-
-    if not reports:
-        return render_template('pengaduan.html', no_data=True)
-    else:
-        return render_template('pengaduan.html', reports=reports)
+    try:
+        response = requests.get('http://localhost:3000/server_get_data')  # Replace with the correct URL of the /getdata endpoint
+        if response.status_code == 200:
+            reports = response.json()
+            return render_template('pengaduan.html', reports=reports)
+        else:
+            # Handle cases where the request was not successful
+            return render_template('pengaduan.html', error="Failed to fetch data")
+    except requests.exceptions.RequestException as e:
+        # Handle any exceptions during the request
+        print(f"An error occurred: {e}")
+        return render_template('pengaduan.html', error="An error occurred while fetching data")
     
-
 @app.route('/delete/<int:report_id>', methods=['POST'])
 def delete_report(report_id):
     try:

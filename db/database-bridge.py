@@ -13,7 +13,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 db = SQLAlchemy()
 
 user = "root"
-pin = "Hoodwink77!" # ISI PASSWORD MYSQL
+pin = "12345" # ISI PASSWORD MYSQL
 host = "localhost"
 db_name = "COVID19" # NAMA DATABASE COVID19
  
@@ -87,6 +87,7 @@ def add_laporan():
 
 # TEST
 @app.route('/server', methods=['GET', 'POST'])
+
 def handle_form_data():
     try:
         if request.method == 'POST':
@@ -119,6 +120,40 @@ def handle_form_data():
         return 'Error storing data', 500
 
 
+
+
+@app.route('/server_get_data')
+
+def get_data():
+    
+    connection = mysql.connector.connect (
+        user="root",
+        password="12345",  # Use the correct parameter for the password
+        host="localhost",
+        database="COVID19"  # Use the correct parameter for the database name
+        )
+    cursor = connection.cursor()
+    # SQL query to select all columns from the table
+    query = "SELECT id, nik_pelapor, nama_terlapor, alamat_terlapor, gejala FROM LAPORCOVID"  # Replace 'your_table' with your actual table name
+    cursor.execute(query)
+
+    data = cursor.fetchall()
+    cursor.close()
+    connection.close()
+
+    # Convert each tuple to a dictionary using the known column names
+    data_list = [
+        {
+            'id': row[0],
+            'nik_pelapor': row[1],
+            'nama_terlapor': row[2],
+            'alamat_terlapor': row[3],
+            'gejala': row[4]
+        }
+        for row in data
+    ]
+
+    return jsonify(data_list)
 
 
 if __name__ == "__main__":
