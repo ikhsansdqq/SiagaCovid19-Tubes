@@ -13,7 +13,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 db = SQLAlchemy()
 
 user = "root"
-pin = "Hoodwink77!" # ISI PASSWORD MYSQL
+pin = "12345" # ISI PASSWORD MYSQL
 host = "localhost"
 db_name = "COVID19" # NAMA DATABASE COVID19
  
@@ -89,31 +89,37 @@ def add_laporan():
 @app.route('/server', methods=['GET', 'POST'])
 def handle_form_data():
     try:
-        if request.is_json:
-            data = request.get_json()
-            connection = mysql.connector.connect (
-                user="root",
-                password="Hoodwink77!",  # Use the correct parameter for the password
-                host="localhost",
-                database="COVID19"  # Use the correct parameter for the database name
-            )
+        if request.method == 'POST':
+            if request.is_json:
+                data = request.get_json()
+                connection = mysql.connector.connect (
+                    user="root",
+                    password="12345",  # Use the correct parameter for the password
+                    host="localhost",
+                    database="COVID19"  # Use the correct parameter for the database name
+                )
+                
+                cursor = connection.cursor()
 
-            cursor = connection.cursor()
+                query = "INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
+                values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'], data['gejala'])
+                cursor.execute(query, values)
 
-            query = "INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
-            values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'], data['gejala'])
-            cursor.execute(query, values)
-
-            connection.commit()
-            cursor.close()
-            connection.close()
+                connection.commit()
+                cursor.close()
+                connection.close()
+                return redirect(url_for('server1'))
+            else:
+                return jsonify({'error': 'Invalid content type. Expected application/json'}), 415
+        elif request.method == 'GET':
+            print("GET Request Headers:", request.headers)
             return redirect(url_for('server1'))
-        else:
-            return jsonify({'error': 'Invalid content type. Expected application/json'}), 415
-        
+    
     except Error as e:
         print(f"Error: {e}")
         return 'Error storing data', 500
+
+
 
 
 if __name__ == "__main__":
