@@ -112,7 +112,6 @@ def handle_form_data():
             else:
                 return jsonify({'error': 'Invalid content type. Expected application/json'}), 415
         elif request.method == 'GET':
-            print("GET Request Headers:", request.headers)
             return redirect(url_for('server1'))
     
     except Error as e:
