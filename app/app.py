@@ -54,7 +54,7 @@ def submit():
         data = {
             'nik_pelapor': nik_pelapor, 
             'nama_pelapor': nama_pelapor, 
-            'nama_terlapor': nama_pelapor, 
+            'nama_terlapor': nama_terlapor, 
             'alamat_terlapor': alamat_terlapor, 
             'gejala': gejala
         }

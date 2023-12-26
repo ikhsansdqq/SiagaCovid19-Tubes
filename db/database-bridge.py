@@ -13,7 +13,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 db = SQLAlchemy()
 
 user = "root"
-pin = "12345" # ISI PASSWORD MYSQL
+pin = "Hoodwink77!" # ISI PASSWORD MYSQL
 host = "localhost"
 db_name = "COVID19" # NAMA DATABASE COVID19
  
