@@ -142,5 +142,13 @@ def guide():
     return render_template('guideline.html', html_content=html_content)
 
 
+@app.route('/<int:nik>', methods=['GET', 'POST'])
+def show_page_by_nik():
+    # Bikin Placeholder buat search by NIK, page khusus
+    # Antara nampilin JSON sesuai search/ nampilin lewat HTML
+
+    return '<h1>Hello World!</h1>'
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
