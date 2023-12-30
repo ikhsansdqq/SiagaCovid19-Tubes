@@ -10,7 +10,7 @@ async def fetch_data():
         "host": "localhost",
         "port": 3306,
         "user": "root",
-        "password": "Hoodwink77!",
+        "password": "12345",
         "db": "covdb"
     }
 

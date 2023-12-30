@@ -5,7 +5,7 @@ conn = psycopg2.connect (
     host = "localhost",
     database = "siagacovid",
     user = os.environ['postgres'],
-    password = os.environ['Hoodwink77!']
+    password = os.environ['12345']
 )
 
 cur = conn.cursor()

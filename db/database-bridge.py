@@ -16,7 +16,7 @@ db = SQLAlchemy()
 
 # defining MySQL database connection parameters
 user = "root"
-pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
+pin = "12345"  # ISI PASSWORD MYSQL
 host = "localhost"
 db_name = "COVID19"  # NAMA DATABASE COVID19
 
@@ -31,6 +31,7 @@ db.init_app(app)
 
 # Creating Models
 class LaporCovid(db.Model):
+    __tablename__ = "LAPORCOVID"
     id = db.Column(db.String(10), primary_key=True, autoincrement=True)
     nik_pelapor = db.Column(db.String(16))
     nama_pelapor = db.Column(db.String(100))
@@ -38,7 +39,8 @@ class LaporCovid(db.Model):
     alamat_terlapor = db.Column(db.String(100))
     gejala = db.Column(db.String(100))
 
-    def __init__(self, nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala):
+    def __init__(self, __tablename__, nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala):
+        self.__tablename__=__tablename__
         self.nik_pelapor = nik_pelapor
         self.nama_pelapor = nama_pelapor
         self.nama_terlapor = nama_terlapor
@@ -126,7 +128,7 @@ def handle_form_data():
                 # Establish a connection to the MySQL database
                 connection = mysql.connector.connect(
                     user="root",
-                    password="Hoodwink77!",  # Use the correct parameter for the password
+                    password="12345",  # Use the correct parameter for the password
                     host="localhost",
                     database="covid19"  # Use the correct parameter for the database name
                 )
@@ -135,7 +137,7 @@ def handle_form_data():
                 cursor = connection.cursor()
 
                 # Define an SQL query to insert data into the database
-                query = "INSERT INTO laporcovid (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
+                query = "INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
 
                 # Prepare the data values for the query
                 values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'],
@@ -172,7 +174,7 @@ def get_data():
     # Establish a connection to the MySQL database
     connection = mysql.connector.connect(
         user="root",
-        password="Hoodwink77!",  # Use the correct parameter for the password
+        password="12345",  # Use the correct parameter for the password
         host="localhost",
         database="COVID19"  # Use the correct parameter for the database name
     )
@@ -181,7 +183,7 @@ def get_data():
     cursor = connection.cursor()
 
     # Define an SQL query to select data from the database
-    query = "SELECT id, nik_pelapor, nama_terlapor, alamat_terlapor, gejala FROM laporcovid"
+    query = "SELECT id, nik_pelapor, nama_terlapor, alamat_terlapor, gejala FROM LAPORCOVID"
 
     # Execute the SQL query
     cursor.execute(query)

@@ -17,7 +17,7 @@ db = SQLAlchemy()
 
 # defining MySQL database connection parameters
 user = "root"
-pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
+pin = "12345"  # ISI PASSWORD MYSQL
 host = "localhost"
 db_name = "covid19"  # NAMA DATABASE COVID19
 
@@ -123,7 +123,7 @@ def pengaduan():
 def delete_report(id):
     try:
         # Execute a raw SQL query to delete the report with the specified ID
-        query = text('DELETE FROM laporcovid WHERE id = :id')
+        query = text('DELETE FROM LAPORCOVID WHERE id = :id')
         db.session.execute(query, {'id': id})
         db.session.commit()
 
