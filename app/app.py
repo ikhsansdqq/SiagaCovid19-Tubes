@@ -136,7 +136,7 @@ def delete_report(id):
 
 @app.route('/how-it-works')  # defining a route for displaying a guide on how it works ('/how-it-works')
 def guide():
-    with open('README.md', 'r', encoding='utf-8') as file:
+    with open('../README.md', 'r', encoding='utf-8') as file:
         content = file.read()
     html_content = markdown2.markdown(content)  # converting the Markdown content to HTML
     return render_template('guideline.html', html_content=html_content)
