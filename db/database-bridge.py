@@ -211,6 +211,47 @@ def get_data():
     return jsonify(data_list)
 
 
+@app.route('/server/get-specific-data/<int:nik_pelapor>')
+def get_specific_data(nik_pelapor):
+    # Establish a connection to the MySQL database
+    connection = mysql.connector.connect(
+        user="root",
+        password="12345",  # Use the correct parameter for the password
+        host="localhost",
+        database="COVID19"  # Use the correct parameter for the database name
+    )
+
+    # Create a cursor object to interact with the database
+    cursor = connection.cursor()
+    # Define an SQL query to select data from the database
+    query = "SELECT * FROM LAPORCOVID WHERE nik_pelapor = %s "
+
+    # Execute the SQL query
+    cursor.execute(query, (nik_pelapor,))
+
+    # Fetch all the data rows from the query result
+    data = cursor.fetchall()
+
+    # Close the cursor and database connection
+    cursor.close()
+    connection.close()
+
+    # Convert the fetched data into a list of dictionaries
+    data_list = [
+        {
+            'id': row[0],
+            'nik_pelapor': row[1],
+            'nama_terlapor': row[2],
+            'alamat_terlapor': row[3],
+            'gejala': row[4]
+        }
+        for row in data
+    ]
+
+    print(data_list)
+    # Return the data as a JSON response
+    return jsonify(data_list)
+
 # Entry point of the application
 if __name__ == "__main__":
     # Call a function 'create_db()' (not shown in the provided code) to create the database

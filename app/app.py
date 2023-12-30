@@ -133,6 +133,21 @@ def delete_report(id):
 
     return redirect(url_for('pengaduan'))
 
+@app.route('/pengaduan/<int:nik_pelapor>', methods=['GET', 'POST'])  # Updated route to include ID
+def pengaduan_specific(nik_pelapor):
+    try:
+        # The URL now includes the ID to fetch specific data
+        response = requests.get(f'http://127.0.0.1:3000/server/get-specific-data/{nik_pelapor}') 
+        if response.status_code == 200:
+            report = response.json()
+            return render_template('pengaduan.html', report=report)
+        else:
+            # Handle cases where the request was not successful
+            return render_template('pengaduan.html', error="Failed to fetch data")
+    except requests.exceptions.RequestException as e:
+        # Handle any exceptions during the request
+        print(f"An error occurred: {e}")
+        return render_template('pengaduan.html', error="An error occurred while fetching data")
 
 @app.route('/how-it-works')  # defining a route for displaying a guide on how it works ('/how-it-works')
 def guide():
