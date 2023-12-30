@@ -1,86 +1,88 @@
-#Importing important modules from Flask for web app development
+# Importing important modules from Flask for web app development
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-import os
+from sqlalchemy import text
+from flask_cors import CORS
 import requests
 import json
 import markdown2
 
-#Creating a Flask web application instance
+# Creating a Flask web application instance
 app = Flask(__name__)
 
-#constructing the path to SQLite database
-db_path = os.path.join(os.path.dirname(__file__), 'site.db')
+CORS(app, resources={r"/server": {"origins": "*"}})  # enabling CORS for the '/server' route
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True  # configuring Flask to pretty-print JSON responses
 
-#configuring the Flask app with the database URI
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
+db = SQLAlchemy()
+
+# defining MySQL database connection parameters
+user = "root"
+pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
+host = "localhost"
+db_name = "covid19"  # NAMA DATABASE COVID19
+
+# Configuring database URI
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{user}:{pin}@{host}/{db_name}"
+
+# Disable modification tracking
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-db = SQLAlchemy(app)
+
+db.init_app(app)
+
 
 # data = {}
 
-class Report(db.Model): #Defining a class so it represents a database table
-    #defining database column
-    id = db.Column(db.Integer, primary_key=True)
-    nik_pelapor = db.Column(db.String(16), nullable=False)
-    nama_pelapor = db.Column(db.String(100), nullable=False)
-    nama_terlapor = db.Column(db.String(100), nullable=False)
-    alamat_terlapor = db.Column(db.String(255), nullable=False)
-    gejala = db.Column(db.String(255), nullable=False)
+class LaporCovid(db.Model):
+    id = db.Column(db.String(10), primary_key=True, autoincrement=True)
+    nik_pelapor = db.Column(db.String(16))
+    nama_pelapor = db.Column(db.String(100))
+    nama_terlapor = db.Column(db.String(100))
+    alamat_terlapor = db.Column(db.String(100))
+    gejala = db.Column(db.String(100))
 
 
-def fetch_reports_parallel(): #defining a function to fetch reports from database
+def fetch_reports_parallel():  # defining a function to fetch reports from database
     with app.app_context():
-        reports = Report.query.all()
+        reports = LaporCovid.query.all()
     return reports
 
-def normal_fetch():  #defining another function for normal report fetching
+
+def normal_fetch():  # defining another function for normal report fetching
     with app.app_context():
-        reports = Report.query.all()
+        reports = LaporCovid.query.all()
     return reports
 
-@app.route('/', methods=['GET', 'POST']) #defining a route for the root URL with support for GET and POST methods
+
+@app.route('/', methods=['GET', 'POST'])  # defining a route for the root URL with support for GET and POST methods
 def index():
     return render_template('index.html')
 
 
-@app.route('/submit', methods=['POST']) #degining a route for form submission with POST method
+@app.route('/submit', methods=['POST'])  # degining a route for form submission with POST method
 def submit():
     try:
-        #retrieving data from the request
+        # retrieving data from the request
         nik_pelapor = request.form.get('nik_pelapor')
         nama_pelapor = request.form.get('nama_pelapor')
         nama_terlapor = request.form.get('nama_terlapor')
         alamat_terlapor = request.form.get('alamat_terlapor')
         gejala = request.form.get('gejala')
 
-        server_url = "http://127.0.0.1:3000/server"
+        server_url = "http://127.0.0.1:3000/server/handle-data"
 
-        #create a dictionary 'data' with form data
+        # create a dictionary 'data' with form data
         data = {
-            'nik_pelapor': nik_pelapor, 
-            'nama_pelapor': nama_pelapor, 
-            'nama_terlapor': nama_terlapor, 
-            'alamat_terlapor': alamat_terlapor, 
+            'nik_pelapor': nik_pelapor,
+            'nama_pelapor': nama_pelapor,
+            'nama_terlapor': nama_terlapor,
+            'alamat_terlapor': alamat_terlapor,
             'gejala': gejala
         }
 
-        json_string = json.dumps(data)  #converting thee dictionary to a JSON string
+        json_string = json.dumps(data)  # converting the dictionary to a JSON string
 
-        requests.post(server_url, json=data) #sending a POST request to the server URL with JSON data
+        requests.post(server_url, json=data)  # sending a POST request to the server URL with JSON data
 
-        # new_report = Report (
-        #     nik_pelapor=nik_pelapor,
-        #     nama_pelapor=nama_pelapor,
-        #     nama_terlapor=nama_terlapor,
-        #     alamat_terlapor=alamat_terlapor,
-        #     gejala=gejala
-        # )
-
-        #printing data and its types (for debugging)
-        # db.session.add(new_report)
-        # db.session.commit()
         print(data)
         print(type(data))
         print(json_string)
@@ -92,6 +94,7 @@ def submit():
     # return redirect(url_for('pengaduan'))
     return redirect(url_for('redirect_to_server'))
 
+
 # Example route handling the redirection to the server
 @app.route('/redirect-to-server')
 def redirect_to_server():
@@ -99,11 +102,11 @@ def redirect_to_server():
     return redirect('http://127.0.0.1:3000/server')
 
 
-
-@app.route('/pengaduan') # Example route handling the redirection to the server
+@app.route('/pengaduan')  # Example route handling the redirection to the server
 def pengaduan():
     try:
-        response = requests.get('http://localhost:3000/server_get_data')  # Replace with the correct URL of the /getdata endpoint
+        response = requests.get(
+            'http://127.0.0.1:3000/server/get-data')  # Replace with the correct URL of the /getdata endpoint
         if response.status_code == 200:
             reports = response.json()
             return render_template('pengaduan.html', reports=reports)
@@ -114,31 +117,30 @@ def pengaduan():
         # Handle any exceptions during the request
         print(f"An error occurred: {e}")
         return render_template('pengaduan.html', error="An error occurred while fetching data")
-    
-@app.route('/delete/<int:report_id>', methods=['POST']) #defining a route for deleting a report with a specified ID ('/delete/<int:report_id>')
-def delete_report(report_id):
+
+
+@app.route('/delete/<int:id>', methods=['POST'])
+def delete_report(id):
     try:
-        report = Report.query.get_or_404(report_id)
-        db.session.delete(report)
+        # Execute a raw SQL query to delete the report with the specified ID
+        query = text('DELETE FROM laporcovid WHERE id = :id')
+        db.session.execute(query, {'id': id})
         db.session.commit()
-        print('Report deleted successfully!')
+
+        print(f'Report with ID {id} deleted successfully!')
     except Exception as e:
         print(f'Error deleting report: {str(e)}')
+
     return redirect(url_for('pengaduan'))
 
 
-@app.route('/how-it-works') #defining a route for displaying a guide on how it works ('/how-it-works')
+@app.route('/how-it-works')  # defining a route for displaying a guide on how it works ('/how-it-works')
 def guide():
     with open('README.md', 'r', encoding='utf-8') as file:
-        content = file.read() 
-    html_content = markdown2.markdown(content) #converting the Markdown content to HTML
+        content = file.read()
+    html_content = markdown2.markdown(content)  # converting the Markdown content to HTML
     return render_template('guideline.html', html_content=html_content)
 
-#defining a route for a test page ('/test')
-@app.route('/test')
-def test():
-    return render_template('test.html')
 
-#run the Flask app if this script is the main entry point
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True, host='0.0.0.0', port=5000)
