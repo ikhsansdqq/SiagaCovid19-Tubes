@@ -1,10 +1,9 @@
-from flask import Flask, render_template, request, redirect, url_for, jsonify
+import markdown2
+import requests
+from flask import Flask, render_template, request, redirect, url_for
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
-from flask_cors import CORS
-import requests
-import json
-import markdown2
 
 app = Flask(__name__)
 
@@ -77,7 +76,6 @@ def submit():
                 'gejala': gejala
             }
 
-            json_string = json.dumps(data)
             requests.post(server_url, json=data)
 
             print('Form submitted sucessfully!', 'success')
