@@ -1,46 +1,44 @@
-# importing important modules and libraries
-import pymysql
-import pymysql
-from flask import Flask, jsonify, request, redirect, url_for, render_template
-from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS
 import mysql.connector
-from mysql.connector import Error
+from flask import Flask, jsonify, request, redirect, url_for
+from flask_cors import CORS
+from flask_sqlalchemy import SQLAlchemy
+from mysql.connector import Error, pooling
 
-# creating a Flask web application instance
 app = Flask(__name__)
 CORS(app, resources={r"/server": {"origins": "*"}})  # enabling CORS for the '/server' route
-app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True  # configuring Flask to pretty-print JSON responses
 
-db = SQLAlchemy()
+db_config = {
+    "host": "localhost",
+    "user": "root",
+    "password": "Hoodwink77!",
+    "database": "COVID19",
+}
 
-# defining MySQL database connection parameters
-user = "root"
-pin = "12345"  # ISI PASSWORD MYSQL
-host = "localhost"
-db_name = "COVID19"  # NAMA DATABASE COVID19
+connection_pool = pooling.MySQLConnectionPool(pool_name="pool", pool_size=5, **db_config)
 
-# Configuring database URI
-app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{user}:{pin}@{host}/{db_name}"
-
-# Disable modification tracking
+app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://root:Hoodwink77!@localhost/covid19"
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config["SQLALCHEMY_POOL_PRE_PING"] = True
+app.config["SQLALCHEMY_POOL_SIZE"] = 5  # Adjust the pool size as needed
+app.config["SQLALCHEMY_POOL_USE_LIFO"] = True
+app.config["SQLALCHEMY_POOL_TIMEOUT"] = 30
 
+db = SQLAlchemy(app)
 db.init_app(app)
 
 
 # Creating Models
 class LaporCovid(db.Model):
-    __tablename__ = "LAPORCOVID"
-    id = db.Column(db.String(10), primary_key=True, autoincrement=True)
+    __tablename__ = "laporcovid"
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     nik_pelapor = db.Column(db.String(16))
     nama_pelapor = db.Column(db.String(100))
     nama_terlapor = db.Column(db.String(100))
     alamat_terlapor = db.Column(db.String(100))
     gejala = db.Column(db.String(100))
 
-    def __init__(self, __tablename__, nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala):
-        self.__tablename__=__tablename__
+    def __init__(self, nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala):
         self.nik_pelapor = nik_pelapor
         self.nama_pelapor = nama_pelapor
         self.nama_terlapor = nama_terlapor
@@ -114,7 +112,8 @@ def add_laporan():
 
 
 # TEST
-@app.route('/server/handle-data', methods=['GET', 'POST'])  # defining a route for handling form data, both POST and GET requests
+@app.route('/server/handle-data',
+           methods=['GET', 'POST'])  # defining a route for handling form data, both POST and GET requests
 # Define a function to handle form data
 def handle_form_data():
     try:
@@ -128,16 +127,17 @@ def handle_form_data():
                 # Establish a connection to the MySQL database
                 connection = mysql.connector.connect(
                     user="root",
-                    password="12345",  # Use the correct parameter for the password
+                    password="Hoodwink77!",  # Use the correct parameter for the password
                     host="localhost",
-                    database="covid19"  # Use the correct parameter for the database name
+                    database="COVID19"  # Use the correct parameter for the database name
                 )
 
                 # Create a cursor object to interact with the database
                 cursor = connection.cursor()
 
                 # Define an SQL query to insert data into the database
-                query = "INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala) VALUES (%s, %s, %s, %s, %s);"
+                query = ("INSERT INTO LAPORCOVID (nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, "
+                         "gejala) VALUES (%s, %s, %s, %s, %s);")
 
                 # Prepare the data values for the query
                 values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'],
@@ -171,29 +171,17 @@ def handle_form_data():
 # Define a route for '/server_get_data'
 @app.route('/server/get-data')
 def get_data():
-    # Establish a connection to the MySQL database
-    connection = mysql.connector.connect(
-        user="root",
-        password="12345",  # Use the correct parameter for the password
-        host="localhost",
-        database="COVID19"  # Use the correct parameter for the database name
-    )
-
-    # Create a cursor object to interact with the database
-    cursor = connection.cursor()
+    # Create a cursor object using the connection from the pool
+    cursor = mysql.connector.connect(user='root', password='<Hoodwink77!>', host='localhost', database='covid19')
 
     # Define an SQL query to select data from the database
-    query = "SELECT id, nik_pelapor, nama_terlapor, alamat_terlapor, gejala FROM LAPORCOVID"
+    query = "SELECT * FROM laporcovid"
 
     # Execute the SQL query
     cursor.execute(query)
 
     # Fetch all the data rows from the query result
     data = cursor.fetchall()
-
-    # Close the cursor and database connection
-    cursor.close()
-    connection.close()
 
     # Convert the fetched data into a list of dictionaries
     data_list = [
@@ -207,22 +195,18 @@ def get_data():
         for row in data
     ]
 
+    # Close the cursor (it will return to the connection pool)
+    cursor.close()
+
     # Return the data as a JSON response
     return jsonify(data_list)
 
 
-@app.route('/server/get-specific-data/<int:nik_pelapor>')
+@app.route('/server/get-data/<int:nik_pelapor>')
 def get_specific_data(nik_pelapor):
-    # Establish a connection to the MySQL database
-    connection = mysql.connector.connect(
-        user="root",
-        password="12345",  # Use the correct parameter for the password
-        host="localhost",
-        database="COVID19"  # Use the correct parameter for the database name
-    )
+    # Create a cursor object using the connection from the pool
+    cursor = mysql.connector.connect(user='root', password='<Hoodwink77!>', host='localhost', database='covid19')
 
-    # Create a cursor object to interact with the database
-    cursor = connection.cursor()
     # Define an SQL query to select data from the database
     query = "SELECT * FROM LAPORCOVID WHERE nik_pelapor = %s "
 
@@ -232,10 +216,6 @@ def get_specific_data(nik_pelapor):
     # Fetch all the data rows from the query result
     data = cursor.fetchall()
 
-    # Close the cursor and database connection
-    cursor.close()
-    connection.close()
-
     # Convert the fetched data into a list of dictionaries
     data_list = [
         {
@@ -248,9 +228,12 @@ def get_specific_data(nik_pelapor):
         for row in data
     ]
 
-    print(data_list)
+    # Close the cursor (it will return to the connection pool)
+    cursor.close()
+
     # Return the data as a JSON response
     return jsonify(data_list)
+
 
 # Entry point of the application
 if __name__ == "__main__":
@@ -258,4 +241,4 @@ if __name__ == "__main__":
     create_db()
 
     # Run the Flask app in debug mode on localhost and port 3000
-    app.run(debug=True, port=3000, host='localhost')
+    app.run(debug=True, port=3000)

@@ -17,9 +17,9 @@ db = SQLAlchemy()
 
 # defining MySQL database connection parameters
 user = "root"
-pin = "12345"  # ISI PASSWORD MYSQL
+pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
 host = "localhost"
-db_name = "covid19"  # NAMA DATABASE COVID19
+db_name = "COVID19"  # NAMA DATABASE COVID19
 
 # Configuring database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{user}:{pin}@{host}/{db_name}"
@@ -68,7 +68,7 @@ def submit():
         alamat_terlapor = request.form.get('alamat_terlapor')
         gejala = request.form.get('gejala')
 
-        server_url = "http://127.0.0.1:3000/server/handle-data"
+        server_url = "http://127.0.0.1:300/server"
 
         # create a dictionary 'data' with form data
         data = {
@@ -99,7 +99,7 @@ def submit():
 @app.route('/redirect-to-server')
 def redirect_to_server():
     # Use the absolute URL
-    return redirect('http://127.0.0.1:3000/server')
+    return redirect('http://127.0.0.1:300/server')
 
 
 @app.route('/pengaduan')  # Example route handling the redirection to the server
@@ -137,7 +137,7 @@ def delete_report(id):
 def pengaduan_specific(nik_pelapor):
     try:
         # The URL now includes the ID to fetch specific data
-        response = requests.get(f'http://127.0.0.1:3000/server/get-specific-data/{nik_pelapor}') 
+        response = requests.get(f'http://127.0.0.1:3000/server/get-specific-data/{nik_pelapor}')
         if response.status_code == 200:
             report = response.json()
             return render_template('pengaduan.html', report=report)
@@ -166,4 +166,4 @@ def show_page_by_nik():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True, port=5000)
