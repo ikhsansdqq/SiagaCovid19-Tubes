@@ -24,7 +24,7 @@ app.config["SQLALCHEMY_POOL_SIZE"] = 5  # Adjust the pool size as needed
 app.config["SQLALCHEMY_POOL_USE_LIFO"] = True
 app.config["SQLALCHEMY_POOL_TIMEOUT"] = 30
 
-db = SQLAlchemy(app)
+db = SQLAlchemy()
 db.init_app(app)
 
 
@@ -172,7 +172,7 @@ def handle_form_data():
 @app.route('/server/get-data')
 def get_data():
     # Create a cursor object using the connection from the pool
-    cursor = mysql.connector.connect(user='root', password='<Hoodwink77!>', host='localhost', database='covid19')
+    cursor = mysql.connector.connect(user='root', password='Hoodwink77!', host='localhost', database='covid19')
 
     # Define an SQL query to select data from the database
     query = "SELECT * FROM laporcovid"

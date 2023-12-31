@@ -19,7 +19,7 @@ db = SQLAlchemy()
 user = "root"
 pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
 host = "localhost"
-db_name = "COVID19"  # NAMA DATABASE COVID19
+db_name = "covid19"  # NAMA DATABASE COVID19
 
 # Configuring database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{user}:{pin}@{host}/{db_name}"
@@ -68,7 +68,7 @@ def submit():
         alamat_terlapor = request.form.get('alamat_terlapor')
         gejala = request.form.get('gejala')
 
-        server_url = "http://127.0.0.1:300/server"
+        server_url = "http://127.0.0.1:3000/server/handle-data"
 
         # create a dictionary 'data' with form data
         data = {
@@ -99,7 +99,7 @@ def submit():
 @app.route('/redirect-to-server')
 def redirect_to_server():
     # Use the absolute URL
-    return redirect('http://127.0.0.1:300/server')
+    return redirect('http://127.0.0.1:3000/server')
 
 
 @app.route('/pengaduan')  # Example route handling the redirection to the server
@@ -133,6 +133,7 @@ def delete_report(id):
 
     return redirect(url_for('pengaduan'))
 
+
 @app.route('/pengaduan/<int:nik_pelapor>', methods=['GET', 'POST'])  # Updated route to include ID
 def pengaduan_specific(nik_pelapor):
     try:
@@ -149,9 +150,10 @@ def pengaduan_specific(nik_pelapor):
         print(f"An error occurred: {e}")
         return render_template('pengaduan.html', error="An error occurred while fetching data")
 
+
 @app.route('/how-it-works')  # defining a route for displaying a guide on how it works ('/how-it-works')
 def guide():
-    with open('../README.md', 'r', encoding='utf-8') as file:
+    with open('README.md', 'r', encoding='utf-8') as file:
         content = file.read()
     html_content = markdown2.markdown(content)  # converting the Markdown content to HTML
     return render_template('guideline.html', html_content=html_content)
@@ -166,4 +168,4 @@ def show_page_by_nik():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)

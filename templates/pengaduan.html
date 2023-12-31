@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Daftar Pengaduan Masyarakat</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}"/>
+    <link rel="stylesheet" href="{{url_for('static',filename='../static/dist/css/output.css')}}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet"/>
 
     <link rel="icon" href="../static/logo-tripadvisor.png" type="image/x-icon"/>
@@ -411,7 +411,7 @@
 
         if (searchTerm.length > 2) {
             // Make an asynchronous request to fetch NIK suggestions
-            fetch(`http://127.0.0.1:3000/server/get-data?search_term=${searchTerm}`)
+            fetch(`http://172.20.10.3:3000/server/get-data?search_term=${searchTerm}`)
                 .then(response => response.json())
                 .then(data => {
                     // Display the suggestions in the suggestion list
