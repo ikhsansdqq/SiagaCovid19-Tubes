@@ -1,5 +1,4 @@
-# Importing important modules from Flask for web app development
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text
 from flask_cors import CORS
@@ -7,30 +6,23 @@ import requests
 import json
 import markdown2
 
-# Creating a Flask web application instance
 app = Flask(__name__)
 
-CORS(app, resources={r"/server": {"origins": "*"}})  # enabling CORS for the '/server' route
-app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True  # configuring Flask to pretty-print JSON responses
+CORS(app, resources={r"/server": {"origins": "*"}})
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
 db = SQLAlchemy()
 
-# defining MySQL database connection parameters
 user = "root"
-pin = "Hoodwink77!"  # ISI PASSWORD MYSQL
+pin = "Hoodwink77!"
 host = "localhost"
-db_name = "covid19"  # NAMA DATABASE COVID19
+db_name = "covid19"
 
-# Configuring database URI
 app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{user}:{pin}@{host}/{db_name}"
-
-# Disable modification tracking
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db.init_app(app)
 
-
-# data = {}
 
 class LaporCovid(db.Model):
     id = db.Column(db.String(10), primary_key=True, autoincrement=True)
@@ -41,13 +33,13 @@ class LaporCovid(db.Model):
     gejala = db.Column(db.String(100))
 
 
-def fetch_reports_parallel():  # defining a function to fetch reports from database
+def fetch_reports_parallel():
     with app.app_context():
         reports = LaporCovid.query.all()
     return reports
 
 
-def normal_fetch():  # defining another function for normal report fetching
+def normal_fetch():
     with app.app_context():
         reports = LaporCovid.query.all()
     return reports
@@ -58,6 +50,7 @@ def index():
     return render_template('index.html')
 
 
+# STILL NEED TO FIX
 @app.route('/submit', methods=['POST'])  # degining a route for form submission with POST method
 def submit():
     try:
@@ -68,45 +61,39 @@ def submit():
         alamat_terlapor = request.form.get('alamat_terlapor')
         gejala = request.form.get('gejala')
 
-        server_url = "http://127.0.0.1:3000/server/handle-data"
+        if (any(char.isalpha() for char in nama_pelapor) and any(char.isdigit() for char in nama_pelapor)) and (
+                any(char.isalpha() for char in nama_terlapor) and any(char.isdigit() for char in nama_terlapor)):
+            return 'Your name has a number inside. Please try again.'
+        elif nama_pelapor.replace('.', '', 1).isdigit() and nama_terlapor.replace('.', '', 1).isdigit():
+            return 'Your name is a number? Please try again.'
+        else:
+            server_url = "http://127.0.0.1:3000/server/add-data"
 
-        # create a dictionary 'data' with form data
-        data = {
-            'nik_pelapor': nik_pelapor,
-            'nama_pelapor': nama_pelapor,
-            'nama_terlapor': nama_terlapor,
-            'alamat_terlapor': alamat_terlapor,
-            'gejala': gejala
-        }
+            data = {
+                'nik_pelapor': nik_pelapor,
+                'nama_pelapor': nama_pelapor,
+                'nama_terlapor': nama_terlapor,
+                'alamat_terlapor': alamat_terlapor,
+                'gejala': gejala
+            }
 
-        json_string = json.dumps(data)  # converting the dictionary to a JSON string
+            json_string = json.dumps(data)
+            requests.post(server_url, json=data)
 
-        requests.post(server_url, json=data)  # sending a POST request to the server URL with JSON data
+            print('Form submitted sucessfully!', 'success')
 
-        print(data)
-        print(type(data))
-        print(json_string)
-        print(type(json_string))
-        print('Form submitted sucessfully!', 'success')
+            # return redirect(url_for('pengaduan'))
+            return redirect(url_for('pengaduan'))
+
     except Exception as e:
         print(f'Error submitting form: {str(e)}', 'danger')
-
-    # return redirect(url_for('pengaduan'))
-    return redirect(url_for('redirect_to_server'))
-
-
-# Example route handling the redirection to the server
-@app.route('/redirect-to-server')
-def redirect_to_server():
-    # Use the absolute URL
-    return redirect('http://127.0.0.1:3000/server')
 
 
 @app.route('/pengaduan')  # Example route handling the redirection to the server
 def pengaduan():
     try:
         response = requests.get(
-            'http://127.0.0.1:3000/server/get-data')  # Replace with the correct URL of the /getdata endpoint
+            'http://127.0.0.1:3000/server')  # Replace with the correct URL of the /getdata endpoint
         if response.status_code == 200:
             reports = response.json()
             return render_template('pengaduan.html', reports=reports)
