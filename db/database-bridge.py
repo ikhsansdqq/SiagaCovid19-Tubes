@@ -20,13 +20,12 @@ app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://root:Hoodwink77!@local
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config["SQLALCHEMY_POOL_PRE_PING"] = True
-app.config["SQLALCHEMY_POOL_SIZE"] = 5  # Adjust the pool size as needed
+app.config["SQLALCHEMY_POOL_SIZE"] = 5
 app.config["SQLALCHEMY_POOL_USE_LIFO"] = True
 app.config["SQLALCHEMY_POOL_TIMEOUT"] = 30
 
 db = SQLAlchemy()
 db.init_app(app)
-
 
 # Creating Models
 class LaporCovid(db.Model):
@@ -38,13 +37,6 @@ class LaporCovid(db.Model):
     alamat_terlapor = db.Column(db.String(100))
     gejala = db.Column(db.String(100))
 
-    def __init__(self, nik_pelapor, nama_pelapor, nama_terlapor, alamat_terlapor, gejala):
-        self.nik_pelapor = nik_pelapor
-        self.nama_pelapor = nama_pelapor
-        self.nama_terlapor = nama_terlapor
-        self.alamat_terlapor = alamat_terlapor
-        self.gejala = gejala
-
 
 def create_db():
     with app.app_context():
@@ -55,12 +47,11 @@ def create_db():
 @app.route('/server')
 def server():
     try:
-        # Query all data from the LAPORCOVID table
-        details = LaporCovid.query.all()
+        details = LaporCovid.query.order_by(LaporCovid.id).all()
 
-        # Convert the data to a list of dictionaries
         details_list = [
             {
+                'id': entry.id,
                 'nik_pelapor': entry.nik_pelapor,
                 'nama_pelapor': entry.nama_pelapor,
                 'nama_terlapor': entry.nama_terlapor,
@@ -70,8 +61,7 @@ def server():
             for entry in details
         ]
 
-        # Return the data as JSON
-        return jsonify(details_list)
+        return details_list
 
     except Exception as e:
         print('ERROR:', str(e))
