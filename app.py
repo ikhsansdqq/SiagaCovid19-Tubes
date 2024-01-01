@@ -28,6 +28,7 @@ db = SQLAlchemy(app)
 
 
 class LaporCovid(db.Model):
+    __tablename__ = "laporcovid"
     id = db.Column(db.String(10), primary_key=True, autoincrement=True)
     nik_pelapor = db.Column(db.String(16))
     nama_pelapor = db.Column(db.String(100))
@@ -57,7 +58,8 @@ def submit():
         elif nama_pelapor.replace('.', '', 1).isdigit() and nama_terlapor.replace('.', '', 1).isdigit():
             return 'Your name is a number? Please try again.'
         else:
-            server_url = "http://127.0.0.1:3000/server/add-data"
+            # server_url = "http://127.0.0.1:3000/server/add-data"
+            server_url = "http://192.168.0.8:3000/server/server/add-data"
 
             data = {
                 'nik_pelapor': nik_pelapor,
@@ -76,13 +78,16 @@ def submit():
 
     except Exception as e:
         print(f'Error submitting form: {str(e)}', 'danger')
+        return f'An error occurred while processing your request. Please try again. {e}'
 
 
 @app.route('/pengaduan')
 def pengaduan():
     try:
+        # response = requests.get(
+        #     'http://127.0.0.1:3000/server')
         response = requests.get(
-            'http://127.0.0.1:3000/server')
+            'http://192.168.0.8:3000/server')
         if response.status_code == 200:
             reports = response.json()
             return render_template('pengaduan.html', reports=reports)
@@ -110,7 +115,8 @@ def delete_report(id):
 @app.route('/pengaduan/<int:nik_pelapor>', methods=['GET', 'POST'])  # Updated route to include ID
 def pengaduan_specific(nik_pelapor):
     try:
-        response = requests.get(f'http://127.0.0.1:3000/{nik_pelapor}')
+        # response = requests.get(f'http://127.0.0.1:3000/{nik_pelapor}')
+        response = requests.get(f'http://192.168.0.8:3000/server/{nik_pelapor}')
         if response.status_code == 200:
             report = response.json()
             return render_template('pengaduan.html', report=report)
