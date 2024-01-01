@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Daftar Pengaduan Masyarakat</title>
-    <link rel="stylesheet" href="{{url_for('static',filename='../static/dist/css/output.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='../static/dist/css/output.css') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet"/>
 
     <link rel="icon" href="../static/logo-tripadvisor.png" type="image/x-icon"/>
@@ -43,7 +43,7 @@
                             stroke-linejoin="round"
                             stroke-width="2"
                             d="M1 1h15M1 7h15M1 13h15"
-                    />
+                    ></path>
                 </svg>
             </button>
         </div>
@@ -90,7 +90,7 @@
                     >
                         <path
                                 d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"
-                        />
+                        ></path>
                     </svg>
                     Home
                 </a>
@@ -110,7 +110,7 @@
                                 stroke-linejoin="round"
                                 stroke-width="2"
                                 d="m1 9 4-4-4-4"
-                        />
+                        ></path>
                     </svg>
                     <a
                             href="/pengaduan"
@@ -135,10 +135,10 @@
                 <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M3 5v10M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V6a3 3 0 0 0-3-3H9m1.5-2-2 2 2 2"/>
+                          d="M3 5v10M3 5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm12 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0V6a3 3 0 0 0-3-3H9m1.5-2-2 2 2 2"></path>
                 </svg>
             </div>
-            <input type="text" id="simple-search"
+            <input type="text" id="simple-search" maxlength="16" max="16"
                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                    placeholder="Search NIK..." required>
         </div>
@@ -146,7 +146,7 @@
                 class="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path>
             </svg>
             <span class="sr-only">Search</span>
         </button>
@@ -164,234 +164,234 @@
             data-inactive-classes="text-gray-500 dark:text-gray-400"
     >
         {% if reports|length==0 %}
-        <p class="font-sans dark:text-white mt-6 text-gray-500">
-            There are no data
-        </p>
-        <button
-                id="refreshButton"
-                class="block text-white mt-6 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-                type="button">
-            Show Data
-        </button>
-        {% else %} {% for report in reports %}
-        <h2 id="accordion-flush-heading-{{ loop.index }}">
+            <p class="font-sans dark:text-white mt-6 text-gray-500">
+                There are no data
+            </p>
             <button
-                    type="button"
-                    class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
-                    data-accordion-target="#accordion-flush-body-{{ loop.index }}"
-                    aria-expanded="true"
-                    aria-controls="accordion-flush-body-{{ loop.index }}"
-            >
-                <span>{{ report.nama_terlapor }}</span>
-                <svg
-                        data-accordion-icon
-                        class="w-3 h-3 rotate-180 shrink-0"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 10 6"
-                >
-                    <path
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5 5 1 1 5"
-                    />
-                </svg>
+                    id="refreshButton"
+                    class="block text-white mt-6 bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                    type="button">
+                Show Data
             </button>
-        </h2>
-        <div
-                id="accordion-flush-body-{{ loop.index }}"
-                class="hidden"
-                aria-labelledby="accordion-flush-heading-{{ loop.index }}"
-        >
-            <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                <p class="mb-2 text-gray-600 dark:text-gray-100">
-                    NIK Pelapor: {{ report.nik_pelapor }}
-                </p>
-                <p class="mb-2 text-gray-600 dark:text-gray-100">
-                    Nama Pelapor: {{ report.nama_pelapor }}
-                </p>
-                <p class="mb-2 text-gray-600 dark:text-gray-100">
-                    Alamat Terlapor: {{ report.alamat_terlapor }}
-                </p>
-                <p class="mb-2 text-gray-600 dark:text-gray-100">
-                    Gejala Yang Dilaporkan: {{ report.gejala }}
-                </p>
+        {% else %} {% for report in reports %}
+            <h2 id="accordion-flush-heading-{{ loop.index }}">
+                <button
+                        type="button"
+                        class="flex items-center justify-between w-full py-5 font-medium rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 gap-3"
+                        data-accordion-target="#accordion-flush-body-{{ loop.index }}"
+                        aria-expanded="true"
+                        aria-controls="accordion-flush-body-{{ loop.index }}"
+                >
+                    <span># SC-{{ report.id }} - {{ report.waktu_dilaporkan }}</span>
+                    <svg
+                            data-accordion-icon
+                            class="w-3 h-3 rotate-180 shrink-0"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 10 6"
+                    >
+                        <path
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 5 5 1 1 5"
+                        ></path>
+                    </svg>
+                </button>
+            </h2>
+            <div
+                    id="accordion-flush-body-{{ loop.index }}"
+                    class="hidden"
+                    aria-labelledby="accordion-flush-heading-{{ loop.index }}"
+            >
+                <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                    <p class="mb-2 text-gray-600 dark:text-gray-100">
+                        NIK Pelapor: {{ report.nik_pelapor }}
+                    </p>
+                    <p class="mb-2 text-gray-600 dark:text-gray-100">
+                        Nama Pelapor: {{ report.nama_pelapor }}
+                    </p>
+                    <p class="mb-2 text-gray-600 dark:text-gray-100">
+                        Alamat Terlapor: {{ report.alamat_terlapor }}
+                    </p>
+                    <p class="mb-2 text-gray-600 dark:text-gray-100">
+                        Gejala Yang Dilaporkan: {{ report.gejala }}
+                    </p>
 
-                <form
-                        method="POST"
-                        action="{{ url_for('delete_report', id=report.id) }}"
-                        class="mt-6">
-                    <input type="hidden" name="_method" value="DELETE"/>
-                    <!-- <button type="submit" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Delete</button> -->
+                    <form
+                            method="POST"
+                            action="{{ url_for('delete_report', id=report.id) }}"
+                            class="mt-6">
+                        <input type="hidden" name="_method" value="DELETE"/>
+                        <!-- <button type="submit" class="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Delete</button> -->
 
-                    <div class="flex inline-flex gap-3">
-                        <button
-                                data-modal-target="popup-modal-{{loop.index}}"
-                                data-modal-toggle="popup-modal-{{loop.index}}"
-                                class="block text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-blue-800"
-                                type="button">
-                            Delete
-                        </button>
+                        <div class="flex gap-3">
+                            <button
+                                    data-modal-target="popup-modal-{{ loop.index }}"
+                                    data-modal-toggle="popup-modal-{{ loop.index }}"
+                                    class="block text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-blue-800"
+                                    type="button">
+                                Delete
+                            </button>
 
-                        <!-- Modal toggle -->
-                        <button data-modal-target="crud-modal-{{loop.index}}"
-                                data-modal-toggle="crud-modal-{{loop.index}}"
-                                class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                                type="button">
-                            Toggle modal
-                        </button>
-                    </div>
+                            <!-- Modal toggle -->
+                            <button data-modal-target="crud-modal-{{ loop.index }}"
+                                    data-modal-toggle="crud-modal-{{ loop.index }}"
+                                    class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                    type="button">
+                                Toggle modal
+                            </button>
+                        </div>
 
-                    <div
-                            id="popup-modal-{{loop.index}}"
-                            tabindex="-1"
-                            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                        <div class="relative p-4 w-full max-w-md max-h-full">
-                            <div
-                                    class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                                <button
-                                        type="button"
-                                        class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                                        data-modal-hide="popup-modal-{{loop.index}}">
-                                    <svg
-                                            class="w-3 h-3"
-                                            aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 14 14">
-                                        <path
-                                                stroke="currentColor"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                                    </svg>
-                                    <span class="sr-only">Close modal</span>
-                                </button>
-                                <div class="p-4 md:p-5 text-center">
-                                    <svg
-                                            class="mx-auto mb-4 text-gray-400 w-12 h-12 dark:text-gray-200"
-                                            aria-hidden="true"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 20 20">
-                                        <path
-                                                stroke="currentColor"
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
-                                    </svg>
-                                    <h3 class="mb-5 text-lg font-normal text-gray-600 dark:text-white">
-                                        Are you sure want to delete:
-                                        <span class="font-sans">{{ report.nama_terlapor }}</span>
-                                    </h3>
+                        <div
+                                id="popup-modal-{{ loop.index }}"
+                                tabindex="-1"
+                                class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                            <div class="relative p-4 w-full max-w-md max-h-full">
+                                <div
+                                        class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                                     <button
-                                            data-modal-hide="popup-modal-{{loop.index}}"
-                                            type="submit"
-                                            class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center me-2">
-                                        Yes, I'm sure
-                                    </button>
-                                    <button
-                                            data-modal-hide="popup-modal-{{loop.index}}"
                                             type="button"
-                                            class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
-                                        No, cancel
+                                            class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                                            data-modal-hide="popup-modal-{{ loop.index }}">
+                                        <svg
+                                                class="w-3 h-3"
+                                                aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 14 14">
+                                            <path
+                                                    stroke="currentColor"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="2"
+                                                    d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+                                        </svg>
+                                        <span class="sr-only">Close modal</span>
+                                    </button>
+                                    <div class="p-4 md:p-5 text-center">
+                                        <svg
+                                                class="mx-auto mb-4 text-gray-400 w-12 h-12 dark:text-gray-200"
+                                                aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 20 20">
+                                            <path
+                                                    stroke="currentColor"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    stroke-width="2"
+                                                    d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+                                        </svg>
+                                        <h3 class="mb-5 text-lg font-normal text-gray-600 dark:text-white">
+                                            Are you sure want to delete:
+                                            <span class="font-sans">{{ report.nama_terlapor }}</span>
+                                        </h3>
+                                        <button
+                                                data-modal-hide="popup-modal-{{ loop.index }}"
+                                                type="submit"
+                                                class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center me-2">
+                                            Yes, I'm sure
+                                        </button>
+                                        <button
+                                                data-modal-hide="popup-modal-{{ loop.index }}"
+                                                type="button"
+                                                class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                                            No, cancel
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Main modal -->
+                    <div id="crud-modal-{{ loop.index }}" tabindex="-1" aria-hidden="true"
+                         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+                        <div class="relative p-4 w-full max-w-md max-h-full">
+                            <!-- Modal content -->
+                            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                <!-- Modal header -->
+                                <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                                        Jemput Pasien
+                                    </h3>
+                                    <button type="button"
+                                            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                                            data-modal-toggle="crud-modal-{{ loop.index }}">
+                                        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                             fill="none" viewBox="0 0 14 14">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"></path>
+                                        </svg>
+                                        <span class="sr-only">Close modal</span>
                                     </button>
                                 </div>
+                                <!-- Modal body -->
+                                <form class="p-4 md:p-5">
+                                    <div class="grid gap-4 mb-4 grid-cols-2">
+                                        <div class="col-span-2">
+                                            <label for="terlapor"
+                                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama
+                                                Terlapor Sesuai KTP</label>
+                                            <input type="text" name="terlapor" id="terlapor" disabled="disabled"
+                                                   class="cursor-not-allowed bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                                   placeholder="{{ report.nama_terlapor }}">
+                                        </div>
+                                        <div class="col-span-2">
+                                            <label for="alamat"
+                                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat
+                                                Terlapor Sesuai KTP</label>
+                                            <input type="text" name="alamat" id="alamat" disabled="disabled"
+                                                   class="cursor-not-allowed bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                                   placeholder="{{ report.alamat_terlapor }}">
+                                        </div>
+                                        <div class="col-span-2 sm:col-span-1">
+                                            <label for="jumlah_orang"
+                                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Berapa
+                                                Orang (max: 5)</label>
+                                            <input type="number" name="jumlah_orang" id="jumlah_orang" min="0" max="5"
+                                                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                                                   placeholder="1" required="">
+                                        </div>
+                                        <div class="col-span-2 sm:col-span-1">
+                                            <label for="category-gejala"
+                                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kategori
+                                                Pasien</label>
+                                            <select id="category-gejala"
+                                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                                                <option selected="">Pilih Kategori</option>
+                                                <option value="TV">Gejala Ringan</option>
+                                                <option value="PC">Gejala Menengah</option>
+                                                <option value="GA">Gejala Berat</option>
+                                                <option value="PH">Kritis/ Parah</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-span-2">
+                                            <label for="category-pengawalan"
+                                                   class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Butuh
+                                                Pengawalan</label>
+                                            <select id="category-pengawalan"
+                                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                                                <option selected="">Pilih Pengawalan</option>
+                                                <option value="TV">Butuh</option>
+                                                <option value="PC">Tidak Butuh</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit"
+                                            class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Jemput Pasien
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
-                </form>
 
-                <!-- Main modal -->
-                <div id="crud-modal-{{loop.index}}" tabindex="-1" aria-hidden="true"
-                     class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-                    <div class="relative p-4 w-full max-w-md max-h-full">
-                        <!-- Modal content -->
-                        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                            <!-- Modal header -->
-                            <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-                                    Jemput Pasien
-                                </h3>
-                                <button type="button"
-                                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                                        data-modal-toggle="crud-modal-{{loop.index}}">
-                                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                         fill="none" viewBox="0 0 14 14">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                              stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-                                    </svg>
-                                    <span class="sr-only">Close modal</span>
-                                </button>
-                            </div>
-                            <!-- Modal body -->
-                            <form class="p-4 md:p-5">
-                                <div class="grid gap-4 mb-4 grid-cols-2">
-                                    <div class="col-span-2">
-                                        <label for="terlapor"
-                                               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nama
-                                            Terlapor Sesuai KTP</label>
-                                        <input type="text" name="terlapor" id="terlapor" disabled="disabled"
-                                               class="cursor-not-allowed bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                               placeholder="{{ report.nama_terlapor }}">
-                                    </div>
-                                    <div class="col-span-2">
-                                        <label for="alamat"
-                                               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Alamat
-                                            Terlapor Sesuai KTP</label>
-                                        <input type="text" name="alamat" id="alamat" disabled="disabled"
-                                               class="cursor-not-allowed bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                               placeholder="{{ report.alamat_terlapor }}">
-                                    </div>
-                                    <div class="col-span-2 sm:col-span-1">
-                                        <label for="jumlah_orang"
-                                               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Berapa
-                                            Orang (max: 5)</label>
-                                        <input type="number" name="jumlah_orang" id="jumlah_orang" min="0" max="5"
-                                               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                                               placeholder="1" required="">
-                                    </div>
-                                    <div class="col-span-2 sm:col-span-1">
-                                        <label for="category-gejala"
-                                               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Kategori
-                                            Pasien</label>
-                                        <select id="category-gejala"
-                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                                            <option selected="">Pilih Kategori</option>
-                                            <option value="TV">Gejala Ringan</option>
-                                            <option value="PC">Gejala Menengah</option>
-                                            <option value="GA">Gejala Berat</option>
-                                            <option value="PH">Kritis/ Parah</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-span-2">
-                                        <label for="category-pengawalan"
-                                               class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Butuh
-                                            Pengawalan</label>
-                                        <select id="category-pengawalan"
-                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                                            <option selected="">Pilih Pengawalan</option>
-                                            <option value="TV">Butuh</option>
-                                            <option value="PC">Tidak Butuh</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <button type="submit"
-                                        class="text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Jemput Pasien
-                                </button>
-                            </form>
-                        </div>
-                    </div>
                 </div>
-
             </div>
-        </div>
         {% endfor %}
         {% endif %}
     </div>
@@ -411,7 +411,7 @@
 
         if (searchTerm.length > 2) {
             // Make an asynchronous request to fetch NIK suggestions
-            fetch(`http://172.20.10.3:3000/server/get-data?search_term=${searchTerm}`)
+            fetch(`http://127.0.0.1:3000/server/?search_term=${searchTerm}`)
                 .then(response => response.json())
                 .then(data => {
                     // Display the suggestions in the suggestion list

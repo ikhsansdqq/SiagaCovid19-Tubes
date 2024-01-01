@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/db/database-bridge.py" dialect="GenericSQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/46021397-a4e0-43ef-a999-9e4b5d3283b2/console.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/db/database-bridge.py" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>

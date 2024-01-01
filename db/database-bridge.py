@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import mysql.connector
 from flask import Flask, jsonify, request, redirect, url_for
 from flask_cors import CORS
@@ -26,7 +28,6 @@ db = SQLAlchemy()
 db.init_app(app)
 
 
-# Creating Models
 class LaporCovid(db.Model):
     __tablename__ = "laporcovid"
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -35,6 +36,8 @@ class LaporCovid(db.Model):
     nama_terlapor = db.Column(db.String(100))
     alamat_terlapor = db.Column(db.String(100))
     gejala = db.Column(db.String(100))
+
+    waktu_dilaporkan = db.Column(db.DateTime, default=datetime.utcnow)
 
 
 def create_db():
@@ -55,7 +58,8 @@ def server():
                 'nama_pelapor': entry.nama_pelapor,
                 'nama_terlapor': entry.nama_terlapor,
                 'alamat_terlapor': entry.alamat_terlapor,
-                'gejala': entry.gejala
+                'gejala': entry.gejala,
+                'waktu_dilaporkan': datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
             }
             for entry in details
         ]
@@ -88,7 +92,7 @@ def handle_form_data():
 
                 # Prepare the data values for the query
                 values = (data['nik_pelapor'], data['nama_pelapor'], data['nama_terlapor'], data['alamat_terlapor'],
-                          data['gejala'])
+                          data['gejala'], data['waktu_dilaporkan'])
 
                 cursor.execute(query, values)
 
@@ -109,9 +113,9 @@ def handle_form_data():
 
 
 @app.route('/<int:nik_pelapor>')
-def get_specific_data(nik_pelapor):
+def get_specific_data():
     try:
-        details = LaporCovid.query.filter_by(nik_pelapor=str(nik_pelapor)).all()
+        details = LaporCovid.query.all()
 
         if not details:
             return jsonify({'error': 'Data not found for the specified nik_pelapor'}), 404
@@ -123,7 +127,8 @@ def get_specific_data(nik_pelapor):
                 'nama_pelapor': entry.nama_pelapor,
                 'nama_terlapor': entry.nama_terlapor,
                 'alamat_terlapor': entry.alamat_terlapor,
-                'gejala': entry.gejala
+                'gejala': entry.gejala,
+                'waktu_dilaporkan': entry.waktu_dilaporkan
             }
             for entry in details
         ]
