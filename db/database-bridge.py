@@ -142,4 +142,4 @@ def get_specific_data():
 
 if __name__ == "__main__":
     create_db()
-    app.run(debug=True, port=3000)
+    app.run(host='192.168.0.13:5000', debug=True, port=3000)
